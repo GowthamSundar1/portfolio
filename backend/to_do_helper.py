@@ -5,7 +5,7 @@ import logging
 #initialize git -- Done
 #Add first task with id, desc, status, create_date, update_date
 #done:Add docstring for functions
-#Todo: Change print statements to loggers
+#done: Change print statements to loggers
 logger = logging.getLogger(name='__name__')
 logging.basicConfig(format= "%(levelname)s:%(message)s", level= logging.DEBUG)
 
